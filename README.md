@@ -1,7 +1,7 @@
 # Identifying Populations at Risk for CHD
 by: Zachary Greenberg & Jonathan Silverman
 
-<img src="https://github.com/zachagreenberg/Cardiovascular_Disease/blob/main/Images/Readme_Cover.jpg" width="200" height="200" />
+<img src="https://github.com/zachagreenberg/Cardiovascular_Disease/blob/main/Images/Readme_Cover.jpg" width="400" height="250" />
 
 ## Overview
 
