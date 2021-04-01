@@ -44,7 +44,7 @@ With a high recall of .98, the algorithm identified the most important factors b
 
 Additionally with the visualization of the first few branches, we were not only able to see those factors, we were able to identify the algorithm's cut-off values for sorting the data.
 
-<p align="center"><img src="https://github.com/zachagreenberg/Cardiovascular_Disease/blob/main/Images/dtree17.png" width="700" height="350" /></p>
+<p align="center"><img src="https://github.com/zachagreenberg/Cardiovascular_Disease/blob/main/Images/dtree17.png" width="800" height="400" /></p>
 
 
 
