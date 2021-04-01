@@ -40,7 +40,7 @@ We attempted various Classification techniques to create an inferential model. T
 ## Results
 With a high recall of .98, the algorithm identified the most important factors being Systolic BP, BMI, Cholesterol, Age, Heart rate, and Glucose Levels. These findings speak volumes as 5 out the 6 are ones in our control. 
 
-<p align="center"><img src="https://github.com/zachagreenberg/Cardiovascular_Disease/blob/main/Images/DecTree17Magnitude.png" width="400" height="500" /></p>
+<p align="center"><img src="https://github.com/zachagreenberg/Cardiovascular_Disease/blob/main/Images/DecTree17Magnitude.png" width="500" height="300" /></p>
 
 Additionally with the visualization of the first few branches, we were not only able to see those factors, we were able to identify the algorithm's cut-off values for sorting the data.
 
