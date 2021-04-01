@@ -1,7 +1,7 @@
 # Identifying Populations at Risk for CHD
 by: Zachary Greenberg & Jonathan Silverman
 
-![Readme_Cover.jpg](https://github.com/zachagreenberg/Cardiovascular_Disease/blob/main/Images/Readme_Cover.jpg)
+![Readme_Cover.jpg](https://github.com/zachagreenberg/Cardiovascular_Disease/blob/main/Images/Readme_Cover.jpg =100x20)
 
 ## Overview
 
@@ -44,8 +44,8 @@ With a high recall of .98, the algorithm identified the most important factors b
 
 Additionally with the visualization of the first few branches, we were not only able to see those factors, we were able to identify the algorithm's cut-off values for sorting the data.
 
-![dtree17.png]
-(https://github.com/zachagreenberg/Cardiovascular_Disease/blob/main/Images/dtree17.png)
+![dtree.png](https://github.com/zachagreenberg/Cardiovascular_Disease/blob/main/Images/dtree17.png)
+
 
 ## Conclusion
 
