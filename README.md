@@ -15,20 +15,20 @@ CHD is a costly disease. It not only costs the US billions of dollars annually, 
 
 The data comes from a longterm cardiovascular health study in Framingham, Massachusetts. Patients have provided some medical information in the form of variables that are believed to contribute to the onset of CHD. This data is publicly available on Kaggle. The following variables are included:
 
-• Sex: male or female("M" or "F")
-• Age: Age of the patient
-• is_smoking: whether or not the patient is a current smoker
-• Cigs Per Day: the number of cigarettes that the person smoked on average in one day.
-• BP Meds: whether or not the patient was on blood pressure medication 
-• Prevalent Stroke: whether or not the patient had previously had a stroke 
-• Prevalent Hyp: whether or not the patient was hypertensive 
-• Diabetes: whether or not the patient had diabetes 
-• Tot Chol: total cholesterol level 
-• Sys BP: systolic blood pressure 
-• Dia BP: diastolic blood pressure 
-• BMI: Body Mass Index
-• Heart Rate: heart rate
-• Glucose: glucose level
+• Sex: male or female("M" or "F")    
+• Age: Age of the patient    
+• is_smoking: whether or not the patient is a current smoker    
+• Cigs Per Day: the number of cigarettes that the person smoked on average in one day    
+• BP Meds: whether or not the patient was on blood pressure medication    
+• Prevalent Stroke: whether or not the patient had previously had a stroke   
+• Prevalent Hyp: whether or not the patient was hypertensive   
+• Diabetes: whether or not the patient had diabetes   
+• Tot Chol: total cholesterol level   
+• Sys BP: systolic blood pressure   
+• Dia BP: diastolic blood pressure   
+• BMI: Body Mass Index  
+• Heart Rate: heart rate  
+• Glucose: glucose level  
 
 TARGET
 • 10 year risk of coronary heart disease CHD
@@ -44,7 +44,7 @@ With a high recall of .98, the algorithm identified the most important factors b
 
 Additionally with the visualization of the first few branches, we were not only able to see those factors, we were able to identify the algorithm's cut-off values for sorting the data.
 
-<p align="center"><img src="https://github.com/zachagreenberg/Cardiovascular_Disease/blob/main/Images/dtree17.png" width="600" height="400" /></p>
+<p align="center"><img src="https://github.com/zachagreenberg/Cardiovascular_Disease/blob/main/Images/dtree17.png" width="700" height="350" /></p>
 
 
 
