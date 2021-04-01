@@ -62,3 +62,13 @@ Our findings lead us to the following thoughts:
 
 - Find more detailed medical information for more comprehensive evaluation.
 
+
+### Repository Structure
+├── Data
+├── Images
+├── Project_Notebook.ipynb
+├── CHD_PPT.pptx
+└── README.md
+
+
+
