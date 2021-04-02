@@ -33,9 +33,27 @@ The data comes from a longterm cardiovascular health study in Framingham, Massac
 TARGET
 • 10 year risk of coronary heart disease CHD
 
+## Exploratory Data Analysis
+
+We began our process by evaluating specific variables and their relations with the target. One of the most powerful discoveries was the exponential relationship between age and risk of CHD.
+
+<p align="center"><img src="https://github.com/zachagreenberg/Cardiovascular_Disease/blob/main/Images/CHDbyAge.png" width="800" height="400" /></p>
+
+After our study of individual variables we looked at the possibility of polynomial combinations together.
+
+<p align="center"><img src="https://github.com/zachagreenberg/Cardiovascular_Disease/blob/main/Images/DataRelations.png" width="800" height="400" /></p>
+
+By doing so we were able to identify a large percentage of the population at risk for CHD. This inspired us to engineer new features.
+
 ## Methods
 
-We attempted various Classification techniques to create an inferential model. The best model for our case was a Decision Tree. We then iteratively tried different tree depths judging them on their recall scores and found the best performing one. We used built in methods from the scikit package including feature_importance to get an idea of the most serious risk factors.  We also used plot_tree to get a visualization of the tree which made drawing inferences easy.  
+We attempted various Classification techniques to create an inferential model, narrowing it down between three models:
+
+<p align="center"><img src="https://github.com/zachagreenberg/Cardiovascular_Disease/blob/main/Images/Models.png" width="800" height="400" /></p>
+
+
+
+The best model for our case was a Decision Tree for its ease of interpretability. We used built in methods from the scikit package including feature_importance to get an idea of the most serious risk factors.  We also used plot_tree to get a visualization of the tree which made drawing inferences easy.  
 
 ## Results
 With a high recall of .98, the algorithm identified the most important factors being Systolic BP, BMI, Cholesterol, Age, Heart rate, and Glucose Levels. These findings speak volumes as 5 out the 6 are ones in our control. 
