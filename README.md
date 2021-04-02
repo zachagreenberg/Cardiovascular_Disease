@@ -66,7 +66,7 @@ Our findings lead us to the following thoughts:
 ### Repository Structure
 |_ Data  
 |_ Images  
-|_ CHD_PPT.pptx  
+|_ CHDPowerpoint.pptx  
 |_ Project_Notebook.ipynb  
 |_ README.md
 
