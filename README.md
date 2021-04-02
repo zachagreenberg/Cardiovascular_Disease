@@ -41,7 +41,7 @@ We began our process by evaluating specific variables and their relations with t
 
 After our study of individual variables we looked at the possibility of polynomial combinations together.
 
-<p align="center"><img src="https://github.com/zachagreenberg/Cardiovascular_Disease/blob/main/Images/Data__Relations.png" width="400" height="200" /></p>
+<p align="center"><img src="https://github.com/zachagreenberg/Cardiovascular_Disease/blob/main/Images/Data__Relations.png" width="600" height="200" /></p>
 
 By doing so we were able to identify a large percentage of the population at risk for CHD. This inspired us to engineer new features.
 
