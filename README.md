@@ -5,7 +5,7 @@ by: Zachary Greenberg & Jonathan Silverman
 
 ## Overview
 
-Coronary Heart Disease, also grimly known as the 'silent killer' is the number one leading cause of death among Americans. This project explores the potential risk factors for having CHD. With this knowledge, preventative actions can be taken. The findings come from patient data in a longterm cardiovascular health study. 
+Coronary Heart Disease, also grimly known as the 'silent killer', is the number one leading cause of death among Americans. This project explores the potential risk factors for CHD. With this knowledge, hoepfully preventative actions can be taken. The findings come from patient data in a longterm cardiovascular health study. 
 
 ## Business Problem
 
@@ -35,7 +35,7 @@ TARGET
 
 ## Methods
 
-We attempted various Classification techniques to create an inferential model. The best model for our case was a Decision Tree. We then iteratively tried different tree depths judging them on their recall scores and found the best performing one. We used built in methods from the scikit package like feature_importance to get an idea of the most serious risk factors.  We also used plot_tree to get a visualization of the tree which made drawing inferences easy.  
+We attempted various Classification techniques to create an inferential model. The best model for our case was a Decision Tree. We then iteratively tried different tree depths judging them on their recall scores and found the best performing one. We used built in methods from the scikit package including feature_importance to get an idea of the most serious risk factors.  We also used plot_tree to get a visualization of the tree which made drawing inferences easy.  
 
 ## Results
 With a high recall of .98, the algorithm identified the most important factors being Systolic BP, BMI, Cholesterol, Age, Heart rate, and Glucose Levels. These findings speak volumes as 5 out the 6 are ones in our control. 
@@ -66,8 +66,8 @@ Our findings lead us to the following thoughts:
 ### Repository Structure
 |_ Data  
 |_ Images  
+|_ Project_Notebook.ipynb
 |_ CHDPowerpoint.pptx  
-|_ Project_Notebook.ipynb  
 |_ README.md
 
 
