@@ -41,7 +41,7 @@ We began our process by evaluating specific variables and their relations with t
 
 After our study of individual variables we looked at the possibility of polynomial combinations together.
 
-<p align="center"><img src="https://github.com/zachagreenberg/Cardiovascular_Disease/blob/main/Images/DataRelations.png" width="800" height="400" /></p>
+<p align="center"><img src="https://github.com/zachagreenberg/Cardiovascular_Disease/blob/main/Images/DataRelations.png" width="600" height="400" /></p>
 
 By doing so we were able to identify a large percentage of the population at risk for CHD. This inspired us to engineer new features.
 
@@ -49,7 +49,7 @@ By doing so we were able to identify a large percentage of the population at ris
 
 We attempted various Classification techniques to create an inferential model, narrowing it down between three models:
 
-<p align="center"><img src="https://github.com/zachagreenberg/Cardiovascular_Disease/blob/main/Images/Models.png" width="800" height="400" /></p>
+<p align="center"><img src="https://github.com/zachagreenberg/Cardiovascular_Disease/blob/main/Images/Models.png" width="200" height="200" /></p>
 
 
 
@@ -62,7 +62,7 @@ With a high recall of .98, the algorithm identified the most important factors b
 
 Additionally with the visualization of the first few branches, we were not only able to see those factors, we were able to identify the algorithm's cut-off values for sorting the data.
 
-<p align="center"><img src="https://github.com/zachagreenberg/Cardiovascular_Disease/blob/main/Images/dtree17.png" width="800" height="400" /></p>
+<p align="center"><img src="https://github.com/zachagreenberg/Cardiovascular_Disease/blob/main/Images/dtree17.png" width="400" height="400" /></p>
 
 
 
