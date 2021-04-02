@@ -49,14 +49,14 @@ By doing so we were able to identify a large percentage of the population at ris
 
 We attempted various Classification techniques to create an inferential model, narrowing it down between three models:
 
-<p align="center"><img src="https://github.com/zachagreenberg/Cardiovascular_Disease/blob/main/Images/Models.png" width="400" height="200" /></p>
+<p align="center"><img src="https://github.com/zachagreenberg/Cardiovascular_Disease/blob/main/Images/Models.png" width="500" height="200" /></p>
 
 
 
-The best model for our case was a Decision Tree for its ease of interpretability. We used built in methods from the scikit package including feature_importance to get an idea of the most serious risk factors.  We also used plot_tree to get a visualization of the tree which made drawing inferences easy.  
+The best model for our case was a Decision Tree for its high recall score and ease of interpretability. We used built in methods from the scikit package including feature_importance to get an idea of the most serious risk factors.  We also used plot_tree to get a visualization of the tree which made drawing inferences easy.  
 
 ## Results
-With a high recall of .98, the algorithm identified the most important factors being Systolic BP, BMI, Cholesterol, Age, Heart rate, and Glucose Levels. These findings speak volumes as 5 out the 6 are ones in our control. 
+The algorithm identified the most important factors being Systolic BP, BMI, Cholesterol, Age, Heart rate, and Glucose Levels. These findings speak volumes as 5 out the 6 are ones in our control. 
 
 <p align="center"><img src="https://github.com/zachagreenberg/Cardiovascular_Disease/blob/main/Images/DecTree17Magnitude.png" width="500" height="300" /></p>
 
