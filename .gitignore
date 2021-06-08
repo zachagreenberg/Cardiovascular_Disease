@@ -1,0 +1,76 @@
+Last login: Tue Jun  8 11:54:01 on ttys001
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+(learn-env) MacBook-Pro:~ zachgreenberg$ jupyter notebook
+[I 12:17:28.782 NotebookApp] [jupyter_nbextensions_configurator] enabled 0.4.1
+[I 12:17:28.782 NotebookApp] Serving notebooks from local directory: /Users/zachgreenberg
+[I 12:17:28.782 NotebookApp] Jupyter Notebook 6.1.4 is running at:
+[I 12:17:28.782 NotebookApp] http://localhost:8888/?token=f1e89856c7109875bdd8b8c5a4db7040e6bb813cb99914ea
+[I 12:17:28.782 NotebookApp]  or http://127.0.0.1:8888/?token=f1e89856c7109875bdd8b8c5a4db7040e6bb813cb99914ea
+[I 12:17:28.782 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 12:17:28.790 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///Users/zachgreenberg/Library/Jupyter/runtime/nbserver-16447-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=f1e89856c7109875bdd8b8c5a4db7040e6bb813cb99914ea
+     or http://127.0.0.1:8888/?token=f1e89856c7109875bdd8b8c5a4db7040e6bb813cb99914ea
+^C[I 12:17:34.554 NotebookApp] interrupted
+Serving notebooks from local directory: /Users/zachgreenberg
+0 active kernels
+Jupyter Notebook 6.1.4 is running at:
+http://localhost:8888/?token=f1e89856c7109875bdd8b8c5a4db7040e6bb813cb99914ea
+ or http://127.0.0.1:8888/?token=f1e89856c7109875bdd8b8c5a4db7040e6bb813cb99914ea
+Shutdown this notebook server (y/[n])? y
+[C 12:17:35.256 NotebookApp] Shutdown confirmed
+[I 12:17:35.270 NotebookApp] Shutting down 0 kernels
+[I 12:17:35.270 NotebookApp] Shutting down 0 terminals
+(learn-env) MacBook-Pro:~ zachgreenberg$ cd Desktop/
+(learn-env) MacBook-Pro:Desktop zachgreenberg$ cd ..
+(learn-env) MacBook-Pro:~ zachgreenberg$ cd Documents/Flatiron/
+(learn-env) MacBook-Pro:Flatiron zachgreenberg$ ls
+CLOSERUP.png			dsc-data-science-env-config
+Chinese_map_close_up.png	dsc-postgrad_Project-Repository
+Projects			dsc-running-jupyter-locally-lab
+ds-cloud_services		nyc-dc-ds-020121
+(learn-env) MacBook-Pro:Flatiron zachgreenberg$ cd Projects/
+(learn-env) MacBook-Pro:Projects zachgreenberg$ ls
+Cardiovascular_Disease		Restaurant_Revamping_Analysis
+GasPrices			Wine_Recommendations
+King_County_Homes
+(learn-env) MacBook-Pro:Projects zachgreenberg$ cd Cardiovascular_Disease/
+(learn-env) MacBook-Pro:Cardiovascular_Disease zachgreenberg$ vim .gitignore
+(learn-env) MacBook-Pro:Cardiovascular_Disease zachgreenberg$ cd ..
+(learn-env) MacBook-Pro:Projects zachgreenberg$ cd ..
+(learn-env) MacBook-Pro:Flatiron zachgreenberg$ cd Projects/Cardiovascular_Disease/
+(learn-env) MacBook-Pro:Cardiovascular_Disease zachgreenberg$ cd ..
+(learn-env) MacBook-Pro:Projects zachgreenberg$ cd Wine_Recommendations/
+(learn-env) MacBook-Pro:Wine_Recommendations zachgreenberg$ vim .gitignore
+
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+#Checkpoints
+.ipynb_checkpoints
+
+# DS_Store
+.DS_Store
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+
+
