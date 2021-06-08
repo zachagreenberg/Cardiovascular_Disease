@@ -5,15 +5,15 @@ by: Zachary Greenberg & Jonathan Silverman
 
 ## Overview
 
-Coronary Heart Disease, also grimly known as the 'silent killer', is the number one leading cause of death among Americans. This project explores the potential risk factors for CHD. With this knowledge, hoepfully preventative actions can be taken. The findings come from patient data in a longterm cardiovascular health study. 
+Coronary Heart Disease, also grimly known as the 'silent killer', is the number one leading cause of death among Americans. This project explores the potential risk factors for CHD. With this knowledge, hopefully preventative actions can be taken to decrease any risk. The findings come from patient data in a longterm cardiovascular health study. 
 
 ## Business Problem
 
-CHD is a costly disease. It not only costs the US billions of dollars annually, it costs many families their loved ones. We are seeking to identify the top risk factors for CHD to promote awareness and aid in the recognition of specific populations at risk. This will encourage intervention efforts so that we may improve overall patient health and lower healthcare costs down the line. 
+CHD is a costly disease. It not only costs the US billions of dollars annually, it costs many families their loved ones. We are seeking to identify the top risk factors for CHD to promote awareness and aid in the recognition of specific populations at risk. This will identify individuals to encourage intervention efforts so that we may improve overall patient health and lower healthcare costs down the line. 
 
 ## Data
 
-The data comes from a longterm cardiovascular health study in Framingham, Massachusetts. Patients have provided some medical information in the form of variables that are believed to contribute to the onset of CHD. This data is publicly available on Kaggle. The following variables are included:
+The data comes from a [longterm cardiovascular health study](https://www.kaggle.com/amanajmera1/framingham-heart-study-dataset) in Framingham, Massachusetts. Patients have provided some medical information in the form of variables that are believed to contribute to the onset of CHD. This data is publicly available on Kaggle. The following variables are included:
 
 • Sex: male or female("M" or "F")    
 • Age: Age of the patient    
@@ -53,16 +53,16 @@ We attempted various Classification techniques to create an inferential model, n
 
 
 
-The best model for our case was a Decision Tree for its high recall score and ease of interpretability. We used built in methods from the scikit package including feature_importance to get an idea of the most serious risk factors.  We also used plot_tree to get a visualization of the tree which made drawing inferences easy.  
+The best model for our case was a Decision Tree for its decently high recall score and ease of interpretability. We used built in methods from the scikit package including feature_importance to get an idea of the most serious risk factors.  We also used plot_tree to get a visualization of the tree which made drawing inferences easy.  
 
 ## Results
 The algorithm identified the most important factors being Systolic BP, BMI, Cholesterol, Age, Heart rate, and Glucose Levels. These findings speak volumes as 5 out the 6 are ones in our control. 
 
-<p align="center"><img src="https://github.com/zachagreenberg/Cardiovascular_Disease/blob/main/Images/DecTree17Magnitude.png" width="500" height="300" /></p>
+<p align="center"><img src="https://github.com/zachagreenberg/Cardiovascular_Disease/blob/main/Images/DecTree9Magnitude.png" width="500" height="300" /></p>
 
-Additionally with the visualization of the first few branches, we were not only able to see those factors, we were able to identify the algorithm's cut-off values for sorting the data.
+Additionally with the visualization of the first few branches, we were not only able to see those factors, we were able to identify the algorithm's cut-off values for sorting the data. This information can help physicians ask the right questions when assessing a particular patient's risk.
 
-<p align="center"><img src="https://github.com/zachagreenberg/Cardiovascular_Disease/blob/main/Images/dtree17.png" width="600" height="400" /></p>
+<p align="center"><img src="https://github.com/zachagreenberg/Cardiovascular_Disease/blob/main/Images/dtree9.png" width="600" height="400" /></p>
 
 
 
@@ -80,13 +80,14 @@ Our findings lead us to the following thoughts:
 
 - Find more detailed medical information for more comprehensive evaluation.
 
-
+----------------------------------
 ### Repository Structure
-|_ Data  
-|_ Images    
-|_ CHDPowerpointPresentation.pdf   
-|_ Project_Notebook.ipynb   
-|_ README.md
+|_ Data    
+|_ Images     
+|_ .gitignore  
+|_ EDA-Modeling-Eval.ipynb  
+|_ Heart_Disease_Presentation.pdf   
+|_ README.md  
 
 
 
