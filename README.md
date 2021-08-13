@@ -49,7 +49,7 @@ By doing so we were able to identify a large percentage of the population at ris
 
 We attempted various Classification techniques to create an inferential model, narrowing it down between three models:
 
-<p align="center"><img src="https://github.com/zachagreenberg/Cardiovascular_Disease/blob/main/Images/Models.png" width="500" height="200" /></p>
+<p align="center"><img src="https://github.com/zachagreenberg/Cardiovascular_Disease/blob/main/Images/FinalModels.png" width="500" height="200" /></p>
 
 
 
